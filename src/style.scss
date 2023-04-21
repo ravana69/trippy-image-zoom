@@ -1,0 +1,18 @@
+body {
+  background: #000;
+}
+
+#view {
+  position: fixed;
+  top: 0;
+  left: 0;  
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loading {
+  color: #eaeaea;
+  user-select: none;
+  pointer-events: none;
+  padding: 12px;
+}
